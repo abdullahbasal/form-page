@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.add-button {
+  background: #004fff 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  color: white;
+}
+.add-button:hover,
+.save:hover {
+  background-color: #0238b3;
+}
+.clear-table-button {
+  background-color: #fd4040;
+  color: white;
+  border-radius: 3px;
+}
+.clear-table-button:hover {
+  background-color: red;
+}
+.save {
+  background: #004fff 0% 0% no-repeat padding-box;
+  color: white;
+}
+
+.search-bar {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 8px #00000014;
+  border: 2px solid #004fff;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.App {
+  text-align: center;
+}
